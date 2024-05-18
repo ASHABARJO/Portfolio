@@ -1,0 +1,36 @@
+footer{
+    height:30vh ;
+    
+}
+.footer{
+    height: 65vh;
+}
+
+
+@media only screen and (max-width:600px) {
+    .links-group{
+        display: flex;
+        /* justify-content: center; */
+    }
+    
+    .social-header{
+        color: rgb(189, 189, 208);
+        font-size: 20px;
+    }
+    .links{
+
+        margin-left: 8px;
+    }
+   .content-container{
+        height: 100px;
+        width: 400px;
+        margin-bottom: 50px;
+    }
+    .email,.phone{
+
+        display: none;
+    }
+    .additional{
+        display: none;
+    }
+}
