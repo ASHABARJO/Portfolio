@@ -1,0 +1,19 @@
+.bio{
+    background-color: rgb(226, 216, 216);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.para-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    text-align: center;
+height: 45vh;
+width: 90%;
+}

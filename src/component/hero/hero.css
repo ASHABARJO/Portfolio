@@ -1,0 +1,38 @@
+
+.typewriter-container {
+    border-right: 2px solid #61dafb;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #090979;
+}
+.title{
+    color: #090979;
+}
+.typewriter-text::after {
+    content: '|';
+    display: inline-block;
+    animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    50.01%, 100% {
+        opacity: 0;
+    }
+}
+.hero{
+width: 100%;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+img{
+    height: 45vh;
+}
+.card-body{
+    padding-left:45px;
+}
