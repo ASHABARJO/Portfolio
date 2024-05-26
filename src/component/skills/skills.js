@@ -1,0 +1,188 @@
+import React from 'react'
+import './skills.css'
+const Skills = () => {
+  return (
+    <div className='skill container ps-5'>
+        <h1>Skills</h1>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+ 
+        <div class="carousel-inner">
+    <div class="carousel-item active">
+        <div className="row">
+
+    <div className=" row pt-5 ps-5">
+        </div>
+            <div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>HTML</h3>
+                    <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" srcset="" />
+                    
+                </div>
+            </div>
+
+            {/* 2 */}
+            <div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>CSS</h3>
+<img src="https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000" alt="" />
+                </div>
+            </div>
+
+
+            {/* 3 */}
+            <div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>Javascript</h3>
+<img src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000" alt="" srcset="" />
+                </div>
+            </div>
+
+{/* 4 */}
+<div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>React</h3>
+<img src="https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" alt="" srcset="" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="carousel-item">
+        <div className="row">
+{/* 2  row*/}
+<div className=" row pt-5 ps-5">
+            <div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>Bootstrap</h3>
+                    <img src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt="" srcset="" />
+                    
+                </div>
+            </div>
+
+            {/* 2 */}
+            <div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>Trailwind CSS</h3>
+<img src="https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000" alt="" />
+                </div>
+            </div>
+
+
+            {/* 3 */}
+            <div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>CPP</h3>
+<img src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="" srcset="" />
+                </div>
+            </div>
+
+{/* 4 */}
+<div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>Python</h3>
+<img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="" srcset="" />
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div className="row">
+    {/* 3rd row */}
+    <div className=" row pt-5 ps-5">
+            <div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>Machine Learning</h3>
+                    <img src="https://img.icons8.com/?size=100&id=gTN9eaZkKLFI&format=png&color=000000" alt="" srcset="" />
+                    
+                </div>
+            </div>
+
+            {/* 2 */}
+            <div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>DBMS </h3>
+<img src="https://img.icons8.com/?size=100&id=11963&format=png&color=000000" alt="" />
+                </div>
+            </div>
+
+
+            {/* 3 */}
+            <div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>Computer Networking</h3>
+<img src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="" srcset="" />
+                </div>
+            </div>
+
+{/* 4 */}
+<div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>Computer Networking</h3>
+<img src="https://img.icons8.com/?size=100&id=1HQrvpSeuu37&format=png&color=000000" alt="" srcset="" />
+                </div>
+            </div>
+        </div>
+                
+        </div>
+      {/* <img src="..." class="d-block w-100" alt="..."> */}
+    </div>
+
+    <div class="carousel-item">
+        <div className="row">
+    {/* 3rd row */}
+    <div className=" row pt-5 ps-5">
+            <div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>Machine Learning</h3>
+                    <img src="https://img.icons8.com/?size=100&id=gTN9eaZkKLFI&format=png&color=000000" alt="" srcset="" />
+                    
+                </div>
+            </div>
+
+            {/* 2 */}
+            <div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>DBMS </h3>
+<img src="https://img.icons8.com/?size=100&id=11963&format=png&color=000000" alt="" />
+                </div>
+            </div>
+
+
+            {/* 3 */}
+            <div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>Computer Networking</h3>
+<img src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="" srcset="" />
+                </div>
+            </div>
+
+{/* 4 */}
+<div className="col-lg-3">
+                <div className="skills-card card">
+                    <h3>Computer Networking</h3>
+<img src="https://img.icons8.com/?size=100&id=1HQrvpSeuu37&format=png&color=000000" alt="" srcset="" />
+                </div>
+            </div>
+        </div>
+                
+        </div>
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+  )
+}
+
+export default Skills
