@@ -104,7 +104,7 @@ const Skills = () => {
             {/* 2 */}
             <div className="col-lg-3">
                 <div className="skills-card card">
-                    <h3>PHP </h3>
+                    <h3>PHP</h3>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwDJhSqTGNDdevfolscq5WA_nNItAro0_cfg&s" alt="" />
                 </div>
             </div>
@@ -121,7 +121,7 @@ const Skills = () => {
 {/* 4 */}
 <div className="col-lg-3">
                 <div className="skills-card card">
-                    <h3>MS </h3>
+                    <h3>MS Office</h3>
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfdjt09ToylrlABio3hpHFZbXpY1EtCM0qlQ&s" className='image-fluid' alt="" srcset="" />
                 </div>

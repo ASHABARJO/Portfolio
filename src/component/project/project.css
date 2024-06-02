@@ -1,0 +1,7 @@
+.project-image{
+    border-radius: 5%;
+}
+.project-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
