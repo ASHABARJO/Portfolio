@@ -157,7 +157,7 @@ const Skills = () => {
             <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>SQL</h3>
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="" srcset="" />
+<img srcSet="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="" srcset="" />
                 </div>
             </div>
             
@@ -166,7 +166,7 @@ const Skills = () => {
 <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>Canva designer</h3>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqvc9rVVbJBlxO6W4Z5JlnSB_xhHdBE4iu4g&s" alt="" srcset="" />
+<img srcSet="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqvc9rVVbJBlxO6W4Z5JlnSB_xhHdBE4iu4g&s" alt="" srcset="" />
                 </div>
             </div>
         </div>

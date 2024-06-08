@@ -1,3 +1,37 @@
-.card-project{
-    width: 18rem;
+.education-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .card-education {
+    width: 100%;
+    margin: 1rem 0 ;
+    transition: transform 0.3s ease-in-out;
+  
 }
+  
+  .card-education:hover {
+    transform: scale(1.1);
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .education-container {
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+    .card-education {
+      width: 18rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .card-education {
+      margin-bottom: 3.5rem;
+    }
+  }
+  

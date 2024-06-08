@@ -15,19 +15,19 @@ app.use(cors()); // Enable CORS
 const transporter = nodemailer.createTransport({
   service: 'gmail', // Use your email service
   auth: {
-    user: 'your-email@gmail.com', // Replace with your email
-    pass: 'your-email-password'   // Replace with your email password
+    user: 'ashajobs2024@gmail', // Replace with your email
+    pass: '14Asha@Jobs'   // Replace with your email password
   }
 });
 
 app.post('/send-email', (req, res) => {
-  const { email, phone } = req.body;
+  const { email, phone, message } = req.body;
 
   const mailOptions = {
-    from: 'your-email@gmail.com',
-    to: 'your-email@gmail.com', // Your email to receive the form data
+    from: email,
+    to: 'ashajobs2024@gmail.com', // Your email to receive the form data
     subject: 'New Contact Form Submission',
-    text: `Email: ${email}\nPhone: ${phone}`
+    text: `Email: ${email}\nPhone: ${phone}\nMessage: ${message}`
   };
 
   transporter.sendMail(mailOptions, (error, info) => {

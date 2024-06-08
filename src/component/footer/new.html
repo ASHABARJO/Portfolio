@@ -1,0 +1,55 @@
+         {/* Contact Us */}
+          <div className="content-container col-lg-4 col-md-4 col-sm-12">
+            <div className="card1 mt-5">
+              <div className="contact-us">
+                <h2 className="text-center">Contact US</h2>
+                <form onSubmit={handleSubmit}>
+                  <div className="input-content card-body">
+                    <div className="row">
+                      <div className="col-lg-2 col-md-2 col-sm-2 mt-3">
+                        <i className="email fa fa-envelope-o" aria-hidden="true"></i>
+                      </div>
+                      <div className="col-lg-10 col-md-10 col-sm-10 mt-2 mb-3">
+                        <input 
+                          type="text" 
+                          className="form-control" 
+                          placeholder="Enter your Email" 
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
+                        />
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-lg-2 col-md-2 col-sm-2 mt-3">
+                        <i className="fa fa-phone" aria-hidden="true"></i>
+                      </div>
+                      <div className="col-lg-10 col-md-10 col-sm-10">
+                        <input 
+                          type="text" 
+                          className="form-control" 
+                          placeholder="Enter your phone number" 
+                          value={phone}
+                          onChange={(e) => setPhone(e.target.value)}
+                        />
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-lg-2 col-md-2 col-sm-2 mt-3">
+                        <i className="fa fa-comment" aria-hidden="true"></i>
+                      </div>
+                      <div className="col-lg-10 col-md-10 col-sm-10 mt-2 mb-3">
+                        <textarea 
+                          className="form-control" 
+                          placeholder="Enter your message" 
+                          value={message}
+                          onChange={(e) => setMessage(e.target.value)}
+                        />
+                      </div>
+                    </div>
+                    <button type="submit" className="btn btn-primary mt-3 ms-5">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+ 
