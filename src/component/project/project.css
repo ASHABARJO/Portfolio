@@ -1,7 +1,51 @@
-.project-image{
+/* Base Styles */
+.project-image {
     border-radius: 5%;
+    width: 25rem;
+    max-height:auto; /* Set maximum height */
+    height: auto; /* Ensure aspect ratio is maintained */
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 .project-image:hover {
     transform: scale(1.05); /* Slightly enlarge the image */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .ps-5, .pe-5 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+  
+    .pt-5, .pb-5 {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+
+    .project-image {
+        max-height: 20rem; /* Adjust maximum height for smaller screens */
+    }
+}
+
+@media (max-width: 767px) {
+    .title h1 {
+        font-size: 24px;
+    }
+  
+    .project-card h3, .project-card h5 {
+        font-size: 18px;
+    }
+  
+    .project-card p {
+        font-size: 14px;
+    }
+  
+    .link-group a {
+        font-size: 14px;
+    }
+
+    .project-image {
+        max-height: 15rem; /* Further adjust maximum height for smaller screens */
+    }
 }
