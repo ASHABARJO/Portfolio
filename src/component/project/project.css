@@ -1,9 +1,9 @@
 /* Base Styles */
 .project-image {
     border-radius: 5%;
-    width: 25rem;
-    max-height:auto; /* Set maximum height */
-    height: auto; /* Ensure aspect ratio is maintained */
+    height:350px;
+    /* max-height:auto; Set maximum height */
+    width: auto; /*Ensure aspect ratio is maintained*/
     transition: transform 0.3s, box-shadow 0.3s;
 }
 .project-image:hover {
@@ -49,3 +49,8 @@
         max-height: 15rem; /* Further adjust maximum height for smaller screens */
     }
 }
+/* .image-container{
+display: flex;
+justify-content: center;
+align-items: center;
+} */

@@ -5,10 +5,10 @@ const Skills = () => {
     <div className='skill container ps-5'>
         <h1 className=' pt-5 title'>Skills</h1>
 
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
  
-        <div class="carousel-inner">
-    <div class="carousel-item active">
+        <div className="carousel-inner">
+    <div className="carousel-item active">
         <div className="row">
 
     <div className=" row pt-5 ps-5">
@@ -16,7 +16,7 @@ const Skills = () => {
             <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>HTML</h3>
-                    <img src="https://img.icons8.com/?size=100&id=20909&format=png&" alt="" srcset="" />
+                    <img src="https://img.icons8.com/?size=100&id=20909&format=png&" alt="" />
                     
                 </div>
             </div>
@@ -34,7 +34,7 @@ const Skills = () => {
             <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>Javascript</h3>
-<img src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000" alt="" srcset="" />
+<img src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000" alt="" />
                 </div>
             </div>
 
@@ -42,20 +42,20 @@ const Skills = () => {
 <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>React</h3>
-<img src="https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" alt="" srcset="" />
+<img src="https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" alt=""  />
                 </div>
             </div>
         </div>
 
     </div>
-    <div class="carousel-item">
+    <div className="carousel-item">
         <div className="row">
 {/* 2  row*/}
 <div className=" row pt-5 ps-5">
             <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>Bootstrap</h3>
-                    <img src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt="" srcset="" />
+                    <img src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt=""  />
                     
                 </div>
             </div>
@@ -73,7 +73,7 @@ const Skills = () => {
             <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>CPP</h3>
-<img src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="" srcset="" />
+<img src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="" />
                 </div>
             </div>
 
@@ -81,14 +81,14 @@ const Skills = () => {
 <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>Python</h3>
-<img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="" srcset="" />
+<img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="" />
                 </div>
             </div>
         </div>
 
         </div>
     </div>
-    <div class="carousel-item">
+    <div className="carousel-item">
         <div className="row">
     {/* 3rd row */}
     
@@ -96,7 +96,7 @@ const Skills = () => {
             <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>Machine Learning</h3>
-                    <img src="https://img.icons8.com/?size=100&id=gTN9eaZkKLFI&format=png&color=000000" alt="" srcset="" />
+                    <img src="https://img.icons8.com/?size=100&id=gTN9eaZkKLFI&format=png&color=000000" alt="" />
                     
                 </div>
             </div>
@@ -114,7 +114,7 @@ const Skills = () => {
             <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>Computer Networking</h3>
-<img src="https://img.icons8.com/?size=100&id=1HQrvpSeuu37&format=png&color=000000" alt="" srcset="" />
+<img src="https://img.icons8.com/?size=100&id=1HQrvpSeuu37&format=png&color=000000" alt=""/>
                 </div>
             </div>
 
@@ -123,7 +123,7 @@ const Skills = () => {
                 <div className="skills-card card">
                     <h3>MS Office</h3>
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfdjt09ToylrlABio3hpHFZbXpY1EtCM0qlQ&s" className='image-fluid' alt="" srcset="" />
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfdjt09ToylrlABio3hpHFZbXpY1EtCM0qlQ&s" className='image-fluid' alt="" />
                 </div>
             </div>
         </div>
@@ -132,14 +132,14 @@ const Skills = () => {
       {/* <img src="..." class="d-block w-100" alt="..."> */}
     </div>
 
-    <div class="carousel-item">
+    <div className="carousel-item">
         <div className="row">
     {/* 3rd row */}
     <div className=" row pt-5 ps-5">
             <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>AI content creator</h3>
-                    <img src="https://media.licdn.com/dms/image/D4D12AQELjV14015icw/article-cover_image-shrink_720_1280/0/1698143188244?e=2147483647&v=beta&t=ADHnO1zBiIV_WZGVcJykORPD03mCr9XufDU8TL4tjKs" alt="" srcset="" />
+                    <img src="https://media.licdn.com/dms/image/D4D12AQELjV14015icw/article-cover_image-shrink_720_1280/0/1698143188244?e=2147483647&v=beta&t=ADHnO1zBiIV_WZGVcJykORPD03mCr9XufDU8TL4tjKs" alt="" />
                     
                 </div>
             </div>
@@ -157,7 +157,7 @@ const Skills = () => {
             <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>SQL</h3>
-<img srcSet="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="" srcset="" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="" />
                 </div>
             </div>
             
@@ -166,7 +166,7 @@ const Skills = () => {
 <div className="col-lg-3">
                 <div className="skills-card card">
                     <h3>Canva designer</h3>
-<img srcSet="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqvc9rVVbJBlxO6W4Z5JlnSB_xhHdBE4iu4g&s" alt="" srcset="" />
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqvc9rVVbJBlxO6W4Z5JlnSB_xhHdBE4iu4g&s" alt=""  />
                 </div>
             </div>
         </div>
@@ -175,13 +175,13 @@ const Skills = () => {
 
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
   </button>
 </div>
     </div>

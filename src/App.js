@@ -9,13 +9,13 @@ import Skills from './component/skills/skills';
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Bio />
+      <Navbar/>
+      <Hero/>
+      <Bio/>
       <Skills/>
-      <Project />
-      <Education />
-      <Footer />
+      <Project/>
+      <Education/>
+      <Footer/>
     </>
   );
 }

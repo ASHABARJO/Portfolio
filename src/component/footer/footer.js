@@ -1,6 +1,5 @@
 import React from 'react';
 import './footer.css';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
  
@@ -11,7 +10,7 @@ const Footer = () => {
       <div className="footer-content pt-5">
         <div className="content row">
           {/* Social media */}
-          <div className="social-content col-lg-4 col-md-4">
+          <div className="social-content col-lg-4">
             <div className="links-group  text-center">
               <h2 className="Social-link pb-3 ">Social Links</h2>
               <span className="links">
@@ -38,29 +37,30 @@ const Footer = () => {
           </div>
           {/* Contact Us */}
  
-          <div className="col-lg-4 col-md-4">
+          <div className=" col-lg-4">
   <div className="row">
     <div className="col-lg-12">
       <h2 className='text-center'>Quick Links</h2>
       <div className='quick-links text-center'>
-      <Link to="/" className='text-white'>Home</Link>
-      
+      {/* <Link to="/" className='text-white'>Home</Link> */}
+      <a href="App.js" className='text-white'>Home</a>
       </div>
-      <div className='quick-links ps-5'>
-      <Link to="/hero" className='text-white'>Intro</Link>
+      <div className='quick-links text-center'>
+      {/* <Link to="/hero" className='text-white'>Intro</Link> */}
+      <a href="./component/hero.js" className='text-white'>Intro</a>  
       </div>
-      <div className='quick-links ps-5'>
-      <a href="project.js">Project</a>     
+      <div className='quick-links text-center'>
+      <a href="#" className='text-white'>Project</a>     
       </div>
-      <div className='quick-links ps-5'>
-      <a href="#education" >Education</a>      
+      <div className='quick-links text-center'>
+      <a href="#education" className='text-white' >Education</a>      
       </div>
     </div>
   </div>
           </div>
 
           {/* Additional Information */}
-          <div className="additional col-lg-4 col-md-4">
+          <div className="additional col-lg-4 ">
               <h2 className="text-center">Connect with me</h2>
                   <p><i><b>Address:</b> Nawa toli, Karra Road, Khunti, 835210, Jharkhand</i></p>
                   <p><i><b>Phone:</b> 7070437172</i></p>
