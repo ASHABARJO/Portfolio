@@ -1,19 +1,52 @@
-.bio{
-    background-color: rgb(226, 216, 216);
+.bio {
+    /* background-color: rgb(226, 216, 216); */
+
+    padding: 2rem;
+    border-radius: 10px;
 }
-.title{
+
+.title h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #090979;
+
+}
+
+.para-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
-.para-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.para{
+
+.para {
+    width: 100%;
     text-align: center;
-height: 45vh;
-width: 90%;
+    width: 90%;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(7, 3, 37, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .bio {
+        padding: 1rem;
+    }
+
+    .para {
+        padding: 1rem;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .para {
+        width: 95%;
+    }
+}
+
+@media (min-width: 992px) {
+    .para {
+        width: 80%;
+    }
 }

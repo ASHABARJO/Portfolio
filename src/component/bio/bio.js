@@ -6,7 +6,7 @@ const Bio = () => {
     <div className="row">
       <div className="col-lg-12 col-sm-12 col-md-12 ">
         <div className="title">
-           <h1>About</h1>
+           <h1 className='text-center'>About</h1>
         </div>
       </div>
       <div className="para-container col-lg-12 col-sm-12 col-md-12">

@@ -1,38 +1,100 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    /* background-color: #f8f9fa; */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
 
 .typewriter-container {
-    border-right: 2px solid #61dafb;
-    white-space: nowrap;
-    overflow: hidden;
-    color: #090979;
-}
-.title{
-    color: #090979;
-}
-.typewriter-text::after {
-    content: '|';
-    display: inline-block;
-    animation: blink 1s steps(1) infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes blink {
-    0%, 50% {
-        opacity: 1;
+.typewriter-text {
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+.hero-image {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+    .main-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+        /* margin-bottom: 10rem; */
     }
-    50.01%, 100% {
-        opacity: 0;
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .typewriter-text {
+        font-size: 1.5rem;
+    }
+
+    .typewriter-container {
+        padding: 0.5rem;
+    }
+
+    .hero-image {
+        margin-top: 1rem;
     }
 }
-.hero{
-width: 100%;
-}
-.main{
-    display: flex;
-    justify-content: space-between;
-    
-}
-img{
-    height: 45vh;
-}
-.card-body{
-    padding-left:45px;
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-container {
+        padding: 1.5rem;
+    }
+
+    .title {
+        font-size: 2.25rem;
+    }
+
+    .typewriter-text {
+        font-size: 1.75rem;
+    }
 }
