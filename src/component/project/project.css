@@ -55,3 +55,10 @@ justify-content: center;
 align-items: center;
 } */
 
+.project_info-card img{
+    height: 18rem;
+    width: auto;
+}
+.project-info-container{
+background-color: #dee2e6;
+}

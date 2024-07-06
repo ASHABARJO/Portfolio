@@ -1,21 +1,36 @@
 import React from 'react';
-import Bio from './component/bio/bio';
+import Contact from './component/contact/contact';
 import Footer from './component/footer/footer';
 import Navbar from './component/navbar/navbar';
-import Project from './component/project/project';
-import Education from './component/education/education';
-import Hero from './component/hero/hero';
-import Skills from './component/skills/skills';
+// import Project from './component/project/project';
+import Project_info from './component/project/Project_info'
+import Home from './component/Home';
+import { createBrowserRouter ,RouterProvider} from 'react-router-dom';
 function App() {
+const router=createBrowserRouter([{
+  path:"/",
+  element:<Home/>
+},
+{
+  path:"/contact",
+  element:<Contact/>
+},
+{
+  path:"/project_info",
+  element:<Project_info/>
+}
+])
   return (
     <>
       <Navbar/>
-      <Hero/>
+      
+      {/* <Hero/>
       <Bio/>
       <Skills/>
       <Project/>
-      <Education/>
-      <Footer/>
+      <Education/>*/}
+      <RouterProvider router={router}/>
+      <Footer/> 
     </>
   );
 }
