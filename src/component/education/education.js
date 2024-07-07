@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <div>
       <div className="education title">
-        <h1 className='text-center'>Education</h1>
+        <h1 className='text-center project-title'>Education</h1>
       </div>
       <div className='education-container'>
         <div className="card-education card">

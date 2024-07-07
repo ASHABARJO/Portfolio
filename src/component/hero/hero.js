@@ -11,7 +11,7 @@ const Hero = () => {
         <p>Front-end dev designs what you see, ML enthusiast explores AI's learning power.</p>
         </div>
         <div className="col-lg-5 col-md-12">
-          <img src="https://bit.ly/4cQ2SIz" alt="Hero" className="hero-img ms-5" />
+          <img src="https://bit.ly/3VX265X" alt="Hero" className="hero-img ms-5" />
         </div>
       </div>
     </div>

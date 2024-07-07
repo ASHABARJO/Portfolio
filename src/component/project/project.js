@@ -4,8 +4,8 @@ import './project.css'
 const Project = () => {
   return (
     <div>
-      <div className="pt-5 title text-center">
-        <h1>Project</h1>
+      <div className=" pt-5 title text-center">
+        <h1 className='project-title'>Project</h1>
       </div>
 
       <div className="row ps-5">

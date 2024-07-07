@@ -1,4 +1,14 @@
 /* Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+.project-title{
+    font-family: "Wittgenstein", serif;
+    color: #090979;;
+}
+.front-end-roject h2,.machine-learning-project h2{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: bolder;
+}
 .project-image {
     border-radius: 5%;
     height:350px;
@@ -61,4 +71,10 @@ align-items: center;
 }
 .project-info-container{
 background-color: #dee2e6;
+}
+.header:hover{
+    color: blue;
+}
+.header:hover{
+    color: blue;
 }

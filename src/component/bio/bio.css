@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.bio-main h3{
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 700;
+}
 .bio {
     /* background-color: rgb(226, 216, 216); */
 
@@ -38,6 +43,10 @@ font-style: none;
     .para {
         padding: 1rem;
         width: 100%;
+    }
+    .about-img{
+    display: none;
+    
     }
 }
 
@@ -125,6 +134,12 @@ font-style: none;
       padding: 10px;
     }
   }
+  .social-handle h4{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    color: #090979;
+    font-weight: 700;
+  }
   .social-handle a{
     display: inline;
     font-style: none;
@@ -141,5 +156,11 @@ font-style: none;
   .brief p{
     font-size: 1.2rem;
     font-style: italic;
+    /* color: #090979; */
+  }
+  .about-img{
+    height: 29rem;
+  }
+  .skill-list b{
     color: #090979;
   }

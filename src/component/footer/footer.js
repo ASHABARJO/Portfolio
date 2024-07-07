@@ -6,7 +6,7 @@ const Footer = () => {
   return (
 
 
-<footer className="footer container-fluid bg-primary text-white ">
+<footer className="footer container-fluid text-white ">
       <div className="footer-content pt-5">
         <div className="content row">
           {/* Social media */}
@@ -71,7 +71,7 @@ const Footer = () => {
 </div>
 <div className="copy-area text-center">
   <div className="row">
-  <div className="col-lg-12  bg-dark text-white pt-2 pb-2">@copywrite2024 ashabarjoprofile.com</div>
+  <div className="col-lg-12  bg-dark text-white pt-2 pb-2">ashabarjoprofile.com</div>
       </div>
 
   </div>

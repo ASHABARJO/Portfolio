@@ -12,11 +12,11 @@ const BioMain = () => {
 
  
   return (
-    <div className="ms-5 container">
+    <div className="bio-main ms-5 container">
       <div className="row">
         <div className="col-lg-7">
-          <h2>Name: Asha Barjo</h2>
-          <h3>Primary Expert Skill: Web Development and Machine Learning</h3>
+          
+          <h3 className='text-danger'>Primary Expert Skill: Web Development and Machine Learning</h3>
           <div className="skill-list">
             <ul>
               <li><b> Programming Language:</b> Python,Cpp</li>
@@ -55,7 +55,8 @@ const BioMain = () => {
         </div>
         <div className="col-lg-5">
           {/* Add any additional content or styling for the second column */}
-          <img src="https://bit.ly/4cQ2SIz" className="ms-5" alt="" />
+          <img src="https://bit.ly/3VX265X"  className="about-img ms-5" alt="" />
+          <h4 className='project-title text-center '>Asha Barjo</h4>
         </div>
       </div>
     </div>
