@@ -115,7 +115,7 @@ const Project = () => {
         <div className="col-lg-6 bg-grey ps-5 pt-5 pb-5 pe-5">
           <div className="project-card card-fluid">
             <h3 className="text-purple">House Price Prediction</h3>
-            <h5>Skills: HTML,CSS,Javascript</h5>
+            <h5>Skills: Python,Machine Learning Algorithm</h5>
             <p>
               Predict house prices using linear regression on the Boston House
               Price dataset:

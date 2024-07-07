@@ -4,6 +4,9 @@
     justify-content: space-around;
     margin: 0 auto;
 }
+.skill h1{
+    color: #090979;
+}
 .skills-card {
     margin: 10px;
     padding-top: 1.5rem;

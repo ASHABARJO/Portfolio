@@ -2,6 +2,7 @@ import React from 'react';
 import Contact from './component/contact/contact';
 import Footer from './component/footer/footer';
 import Navbar from './component/navbar/navbar';
+import BioMain from './component/bio/bio-main';
 // import Project from './component/project/project';
 import Project_info from './component/project/Project_info'
 import Home from './component/Home';
@@ -18,6 +19,10 @@ const router=createBrowserRouter([{
 {
   path:"/project_info",
   element:<Project_info/>
+},
+{
+  path:"/bio-main",
+  element:<BioMain/>
 }
 ])
   return (
